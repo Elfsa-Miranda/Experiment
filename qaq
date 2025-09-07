@@ -8,5 +8,6 @@ git commit -m "first commit" //提交文件
 git remote add  a https://github.com/yourusername/yourrepository.git //添加远程仓库 “a：网址简称，假设此处为a” "网址为你想操作的远程仓库地址"
 git push a master//推送文件 master：分支名，假设此处为master
 
-
+git clone +网址
+git remote -v //查看仓库网址别名（自己或者clone的）
 
