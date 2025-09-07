@@ -1,0 +1,12 @@
+//创建用户信息
+git config --global user.name "YOUR NAME"
+git config --global user.email "you@example.com"
+touch qaq //创建文件
+add qaq //添加文件
+git commit -m "first commit" //提交文件
+
+git remote add  a https://github.com/yourusername/yourrepository.git //添加远程仓库 “a：网址简称，假设此处为a” "网址为你想操作的远程仓库地址"
+git push a master//推送文件 master：分支名，假设此处为master
+
+
+
